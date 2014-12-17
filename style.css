@@ -1,0 +1,36 @@
+#topbooks-widget {
+width: 500px;
+}
+
+.topbooks-inner {
+    background-color: lightblue;
+    float: left;
+    height: 240px;
+	overflow: hidden;
+	width: 480px;
+
+}
+
+.topbooks-img-container {
+    display: inline;
+    float: left;
+    height: 100%;
+    margin: 0.5em 0.5em 0 0.5em;
+	padding-right: 0.5em;
+}
+
+.topbooks-title a {
+	color: #000;
+    font-size: 1.2em;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.topbooks-title a:hover {
+	text-decoration: underline;
+}
+
+.topbooks-summary {
+    overflow: hidden;
+	padding: 0 0.5em 0 0;
+}
